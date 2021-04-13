@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+}
+
+#root {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(60,115,83);
+  background: radial-gradient(circle, rgba(60,115,83,1) 0%, rgba(14,58,45,1) 66%);
+}
+
+@media screen and (max-width: 610px) {
+  body {
+    font-size: 10px;
+  }
+}
